@@ -47,6 +47,11 @@ button:hover {
     cursor: pointer;
 }
 
+h2, .h2 {
+    font-size: 2.25rem;
+    line-height: 3rem;
+}
+
 p, .p {
     font-size: .875rem;
     line-height: 1.125rem;
@@ -132,12 +137,24 @@ ul {
     color: var(--secondary);
 }
 
+.text-info {
+    color: var(--info);
+}
+
 .text-black {
     color: var(--black);
 }
 
+.text-gray {
+    color: var(--gray);
+}
+
 .text-soft-dark {
     color: var(--soft-dark);
+}
+
+.text-medium-dark {
+    color: var(--medium-dark);
 }
 
 .text-white {
@@ -277,20 +294,12 @@ header {
     margin-left: 4.5rem;
 }
 
-.about-us-description h2 {
-    font-size: 2.25rem;
-}
-
 .about-us-description p {
     margin: .75rem 0 1.125rem;
 }
 
 .about-us-description .btn {
     font-size: .875rem;
-}
-
-.division-description h2 {
-    font-size: 2.25rem;
 }
 
 .division-description p {
@@ -323,10 +332,6 @@ header {
 
 #testimony {
     padding: 4.5rem 0;
-}
-
-.testimony-description h2 {
-    font-size: 2.25rem;
 }
 
 .testimony-description p {
@@ -459,4 +464,78 @@ header {
 
 .copyright {
     padding: 2rem 0;
+}
+
+.breadcrumb {
+    padding: 4rem 0 9rem;
+}
+
+.breadcrumb h1 {
+    font-size: 3rem;
+}
+
+.breadcrumb p {
+    margin: 1rem 0;
+    font-size: 1.125rem;
+}
+
+.breadcrumb-link {
+    font-size: .875rem;
+}
+
+.breadcrumb-link a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.breadcrumb-link a:hover {
+    color: var(--info);
+}
+
+.about-us-detail h2 {
+    margin-bottom: 1.5rem;
+}
+
+.about-us-list {
+    padding: 1.5rem 0;
+}
+
+.about-us-list img {
+    padding: .5rem;
+    margin-right: 3rem;
+    border: 1px solid var(--soft-dark);
+}
+
+.teams {
+    padding: 6rem 0 3rem;
+}
+
+.teams h2 {
+    margin-bottom: 5rem;
+}
+
+.teams-card {
+    margin: 0 -3rem;
+}
+
+.teams-card .card {
+    max-width: 25%;
+    width: 216px;
+    margin: 0 3rem;
+}
+
+.teams-card .position {
+    padding: 1.125rem 0 .75rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+    border-bottom: 1px solid var(--soft-dark);
+}
+
+.teams-card .member {
+    margin: .5rem 0 .125rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.teams-card .major {
+    margin: 0;
+    font-size: .75rem;
 }
